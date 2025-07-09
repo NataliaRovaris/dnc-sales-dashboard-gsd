@@ -65,7 +65,7 @@ export const darkTheme: Theme = {
     warning: "#F7A300",
   },
   textInput: {
-    active: "#0F153",
+    active: "#0F1535",
     activeColor: "#FFF",
     borderColor: "#21497D",
     disabled: "#282D49",
