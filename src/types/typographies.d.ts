@@ -1,5 +1,5 @@
 export interface TypographiesProps {
-  color?: StringConstructor;
+  color?: string;
   size?: number;
   lineheight?: number;
   weight?: number;

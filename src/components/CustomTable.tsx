@@ -9,18 +9,30 @@ export const TableWrapper = styled.div`
     width: 100%;
     border-collapse: collapse;
 
+    .ellipsis {
+      display: block;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .ellipsis-sm {
+      width: ${pxToRem(300)}
+    }
+    .ellipsis-xs {
+      width: ${pxToRem(150)}
+    }
     th,
     td {
         height: ${pxToRem(48)};
         padding: ${pxToRem(8)} 0 0;
         text-aligh: left;
         &:last-child {
-            text-aligh: right;
+            text-align: right;
             padding: 0;
         }
     }
     th {
-        color: ${(props) => props.theme.typographies.subtitle}
+        color: ${(props) => props.theme.typographies.subtitle};
         font-weight: 600;
     }
     tr {
