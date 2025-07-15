@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "declaration": true,
+    "declarationMap": false,
+    "emitDeclarationOnly": false,
     "baseUrl": "src",
     "paths": {
       "@/*": ["*"]
